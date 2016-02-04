@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461DB46CE88E6442B5269A69 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */; };
 		E44FC0BA1C6321CB003F9BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FC0B91C6321CB003F9BB1 /* AppDelegate.swift */; };
 		E44FC0BC1C6321CB003F9BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FC0BB1C6321CB003F9BB1 /* ViewController.swift */; };
 		E44FC0BF1C6321CB003F9BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44FC0BD1C6321CB003F9BB1 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44FC0B61C6321CB003F9BB1 /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44FC0B91C6321CB003F9BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E44FC0BB1C6321CB003F9BB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		E44FC0C01C6321CB003F9BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E44FC0C31C6321CB003F9BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E44FC0C51C6321CB003F9BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461DB46CE88E6442B5269A69 /* Pods_StudyBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9432E46CCE4E08AC30F8E31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */,
+				16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E44FC0AD1C6321CA003F9BB1 = {
 			isa = PBXGroup;
 			children = (
 				E44FC0B81C6321CB003F9BB1 /* StudyBuddy */,
 				E44FC0B71C6321CB003F9BB1 /* Products */,
+				B9432E46CCE4E08AC30F8E31 /* Pods */,
+				F316A06BEF6ACD5ED036597D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = StudyBuddy;
 			sourceTree = "<group>";
 		};
+		F316A06BEF6ACD5ED036597D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E44FC0C81C6321CB003F9BB1 /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
 			buildPhases = (
+				F94CC849FC5550E3DBB0EE58 /* Check Pods Manifest.lock */,
 				E44FC0B21C6321CA003F9BB1 /* Sources */,
 				E44FC0B31C6321CA003F9BB1 /* Frameworks */,
 				E44FC0B41C6321CA003F9BB1 /* Resources */,
+				0C034B238C1926ECE06C52FB /* Embed Pods Frameworks */,
+				C8BB04F36929874259806FED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C034B238C1926ECE06C52FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BB04F36929874259806FED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94CC849FC5550E3DBB0EE58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E44FC0B21C6321CA003F9BB1 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		E44FC0C91C6321CB003F9BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StudyBuddy/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		E44FC0CA1C6321CB003F9BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StudyBuddy/Info.plist;
@@ -286,6 +363,7 @@
 				E44FC0CA1C6321CB003F9BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

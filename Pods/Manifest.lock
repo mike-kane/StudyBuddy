@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Firebase (2.5.0)
+  - Gecco (0.2.0)
+  - Material (1.29.4)
+  - Realm (0.97.1):
+    - Realm/Headers (= 0.97.1)
+  - Realm/Headers (0.97.1)
+  - RealmSwift (0.97.1):
+    - Realm (= 0.97.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Firebase (>= 2.5.0)
+  - Gecco
+  - Material (~> 1.0)
+  - RealmSwift (~> 0.97.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
+  Gecco: 27ab0f43da3f8e844771cf641992afdd1ea09c62
+  Material: d02c197b017871cbee6a0fcdabe92c5de81a3abe
+  Realm: 6854f49cc788171573a0605fe5e55d3224bc39f9
+  RealmSwift: 21aa38ae5210a8e7d3ca2fd02a0ce82476672101
+
+COCOAPODS: 0.39.0
