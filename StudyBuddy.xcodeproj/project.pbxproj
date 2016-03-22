@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E401F0D11CA0E8E9009F93BE /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		E418B2761C96B93200781067 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 		E418B27A1C96F02100781067 /* P1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1ViewController.swift; sourceTree = "<group>"; };
 		E418B27C1C96F02C00781067 /* P2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +122,7 @@
 				E44FC0C01C6321CB003F9BB1 /* Assets.xcassets */,
 				E44FC0C21C6321CB003F9BB1 /* LaunchScreen.storyboard */,
 				E44FC0C51C6321CB003F9BB1 /* Info.plist */,
+				E401F0D11CA0E8E9009F93BE /* Bridging-Header.h */,
 			);
 			path = StudyBuddy;
 			sourceTree = "<group>";
@@ -441,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikekane.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -453,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikekane.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/Bridging-Header.h";
 			};
 			name = Release;
 		};
