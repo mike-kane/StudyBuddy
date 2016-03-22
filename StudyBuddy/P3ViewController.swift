@@ -9,12 +9,13 @@
 import UIKit
 
 class P3ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    
+    @IBAction func beginButtonPressed(sender: UIButton) {
+        let storyboard = UIStoryboard(name: "signup", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("initialSignupViewController") as UIViewController
+        
+        self.presentViewController(controller, animated: true, completion: nil)
     }
-
-
+    
 }

@@ -9,5 +9,6 @@ target 'StudyBuddy’ do
     pod 'Alamofire', '~> 3.0'
     pod 'Firebase', '>= 2.5.0'
     pod 'RealmSwift', '~> 0.97.1'
+    pod 'FBSDKCoreKit', '~> 4.9.1'
 
 end

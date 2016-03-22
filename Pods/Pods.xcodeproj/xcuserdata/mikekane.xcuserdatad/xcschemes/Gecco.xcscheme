@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '26FFD1ECD24D9BB86E12546E'
+               BlueprintIdentifier = 'DEF3780E29FFA66E07191FF5'
                BlueprintName = 'Gecco'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Gecco.framework'>
