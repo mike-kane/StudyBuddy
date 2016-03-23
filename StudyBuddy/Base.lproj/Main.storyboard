@@ -138,29 +138,30 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdq-DG-wG7">
-                                <rect key="frame" x="158" y="425" width="59" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="59" id="2kf-ey-v5N"/>
-                                </constraints>
-                                <state key="normal" title="Begin"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdq-DG-wG7" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="38" y="423" width="289" height="24"/>
+                                <state key="normal" title="FB Login Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hdq-DG-wG7" firstAttribute="top" secondItem="Bl6-h9-5Nm" secondAttribute="bottom" constant="50" id="3k4-5R-A2o"/>
-                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="bottom" secondItem="8eL-zj-T3e" secondAttribute="top" id="7sf-gz-xCP"/>
-                            <constraint firstItem="Bl6-h9-5Nm" firstAttribute="top" secondItem="nbM-Zs-2Ns" secondAttribute="bottom" constant="272" id="EPa-Sn-JZt"/>
-                            <constraint firstItem="Bl6-h9-5Nm" firstAttribute="centerY" secondItem="vXz-Ep-dqP" secondAttribute="centerY" id="MKF-2B-gBv"/>
-                            <constraint firstItem="Bl6-h9-5Nm" firstAttribute="leading" secondItem="kVl-vg-uNA" secondAttribute="leadingMargin" constant="22" id="WY2-31-Xnp"/>
-                            <constraint firstAttribute="trailing" secondItem="vXz-Ep-dqP" secondAttribute="trailing" id="YFC-fI-ftW"/>
-                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="leading" secondItem="kVl-vg-uNA" secondAttribute="leading" id="gSF-wd-jZW"/>
-                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="centerX" secondItem="hdq-DG-wG7" secondAttribute="centerX" id="ij7-Eb-Ive"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Bl6-h9-5Nm" secondAttribute="trailing" constant="32" id="qB2-r4-EfO"/>
-                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="top" secondItem="kVl-vg-uNA" secondAttribute="top" id="rdX-o4-69Q"/>
+                            <constraint firstItem="Bl6-h9-5Nm" firstAttribute="top" secondItem="nbM-Zs-2Ns" secondAttribute="bottom" constant="272" id="2Zj-wk-vor"/>
+                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="top" secondItem="kVl-vg-uNA" secondAttribute="top" id="B1C-be-DzJ"/>
+                            <constraint firstItem="hdq-DG-wG7" firstAttribute="top" secondItem="Bl6-h9-5Nm" secondAttribute="bottom" constant="42" id="II4-uE-bsD"/>
+                            <constraint firstItem="hdq-DG-wG7" firstAttribute="trailing" secondItem="Bl6-h9-5Nm" secondAttribute="trailing" id="IMz-cX-AtS"/>
+                            <constraint firstAttribute="trailing" secondItem="vXz-Ep-dqP" secondAttribute="trailing" id="KoA-6I-jiY"/>
+                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="bottom" secondItem="8eL-zj-T3e" secondAttribute="top" id="QNL-h1-fw6"/>
+                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="centerY" secondItem="Bl6-h9-5Nm" secondAttribute="centerY" id="QeS-h7-Gg6"/>
+                            <constraint firstItem="Bl6-h9-5Nm" firstAttribute="leading" secondItem="kVl-vg-uNA" secondAttribute="leadingMargin" constant="22" id="XQM-rv-aTA"/>
+                            <constraint firstItem="vXz-Ep-dqP" firstAttribute="leading" secondItem="kVl-vg-uNA" secondAttribute="leading" id="pLc-y7-2hX"/>
+                            <constraint firstItem="hdq-DG-wG7" firstAttribute="leading" secondItem="Bl6-h9-5Nm" secondAttribute="leading" id="puU-Ye-nhC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bl6-h9-5Nm" secondAttribute="trailing" constant="32" id="z5v-pW-qNa"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginButton" destination="hdq-DG-wG7" id="PId-Pw-IEo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdg-D5-CQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
