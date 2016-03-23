@@ -85,21 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-StudyBuddy/Alamofire.framework"
-  install_framework "Pods-StudyBuddy/Bolts.framework"
-  install_framework "Pods-StudyBuddy/FBSDKCoreKit.framework"
   install_framework "Pods-StudyBuddy/Firebase.framework"
-  install_framework "Pods-StudyBuddy/Gecco.framework"
-  install_framework "Pods-StudyBuddy/Material.framework"
   install_framework "Pods-StudyBuddy/Realm.framework"
   install_framework "Pods-StudyBuddy/RealmSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-StudyBuddy/Alamofire.framework"
-  install_framework "Pods-StudyBuddy/Bolts.framework"
-  install_framework "Pods-StudyBuddy/FBSDKCoreKit.framework"
   install_framework "Pods-StudyBuddy/Firebase.framework"
-  install_framework "Pods-StudyBuddy/Gecco.framework"
-  install_framework "Pods-StudyBuddy/Material.framework"
   install_framework "Pods-StudyBuddy/Realm.framework"
   install_framework "Pods-StudyBuddy/RealmSwift.framework"
 fi

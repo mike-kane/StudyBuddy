@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461DB46CE88E6442B5269A69 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */; };
+		08D2A19A21D82E0880B60DA6 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6E5C254E10ADC3D3D5C621 /* Pods_StudyBuddy.framework */; };
 		E418B2771C96B93200781067 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418B2761C96B93200781067 /* TutorialPageViewController.swift */; };
 		E418B27B1C96F02100781067 /* P1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418B27A1C96F02100781067 /* P1ViewController.swift */; };
 		E418B27D1C96F02C00781067 /* P2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418B27C1C96F02C00781067 /* P2ViewController.swift */; };
@@ -32,8 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
-		D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9B952CAFEFBC3AEB145CA1 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		8DC53B370A3A2065AEA08F46 /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		8F6E5C254E10ADC3D3D5C621 /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E401F0D11CA0E8E9009F93BE /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		E418B2761C96B93200781067 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 		E418B27A1C96F02100781067 /* P1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		E44FC0C51C6321CB003F9BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44FC0D11C6328EB003F9BB1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		E47696ED1CA0DCAF0005AC6D /* Signup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup1ViewController.swift; sourceTree = "<group>"; };
-		EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +66,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461DB46CE88E6442B5269A69 /* Pods_StudyBuddy.framework in Frameworks */,
+				08D2A19A21D82E0880B60DA6 /* Pods_StudyBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9432E46CCE4E08AC30F8E31 /* Pods */ = {
+		8BF3D81537FCFD0C480FA280 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */,
-				16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */,
+				8F6E5C254E10ADC3D3D5C621 /* Pods_StudyBuddy.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E418B2961C97165200781067 /* Storyboards */ = {
@@ -95,8 +94,8 @@
 			children = (
 				E44FC0B81C6321CB003F9BB1 /* StudyBuddy */,
 				E44FC0B71C6321CB003F9BB1 /* Products */,
-				B9432E46CCE4E08AC30F8E31 /* Pods */,
-				F316A06BEF6ACD5ED036597D /* Frameworks */,
+				EBB1706BAD3E39FA5492D918 /* Pods */,
+				8BF3D81537FCFD0C480FA280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,12 +177,13 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		F316A06BEF6ACD5ED036597D /* Frameworks */ = {
+		EBB1706BAD3E39FA5492D918 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D94BB0B4F8F967B27D83839C /* Pods_StudyBuddy.framework */,
+				8DC53B370A3A2065AEA08F46 /* Pods-StudyBuddy.debug.xcconfig */,
+				0A9B952CAFEFBC3AEB145CA1 /* Pods-StudyBuddy.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E44FC0C81C6321CB003F9BB1 /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
 			buildPhases = (
-				F94CC849FC5550E3DBB0EE58 /* Check Pods Manifest.lock */,
+				DEF8A6A28942CF893CEFB1A2 /* Check Pods Manifest.lock */,
 				E44FC0B21C6321CA003F9BB1 /* Sources */,
 				E44FC0B31C6321CA003F9BB1 /* Frameworks */,
 				E44FC0B41C6321CA003F9BB1 /* Resources */,
-				0C034B238C1926ECE06C52FB /* Embed Pods Frameworks */,
-				C8BB04F36929874259806FED /* Copy Pods Resources */,
+				CF61E01448840E141894E3ED /* Embed Pods Frameworks */,
+				8047748C69B23568A8E072EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,22 +264,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C034B238C1926ECE06C52FB /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8BB04F36929874259806FED /* Copy Pods Resources */ = {
+		8047748C69B23568A8E072EC /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,7 +279,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F94CC849FC5550E3DBB0EE58 /* Check Pods Manifest.lock */ = {
+		CF61E01448840E141894E3ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF8A6A28942CF893CEFB1A2 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,7 +436,7 @@
 		};
 		E44FC0C91C6321CB003F9BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF7386DBDBCBF047418FC05C /* Pods-StudyBuddy.debug.xcconfig */;
+			baseConfigurationReference = 8DC53B370A3A2065AEA08F46 /* Pods-StudyBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StudyBuddy/Info.plist;
@@ -449,7 +449,7 @@
 		};
 		E44FC0CA1C6321CB003F9BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16817B3014126126A3ACBBF6 /* Pods-StudyBuddy.release.xcconfig */;
+			baseConfigurationReference = 0A9B952CAFEFBC3AEB145CA1 /* Pods-StudyBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StudyBuddy/Info.plist;
